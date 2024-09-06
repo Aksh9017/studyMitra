@@ -1,0 +1,82 @@
+/* Sign-In Page */
+.signin-container {
+    background: #f6f5f7;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Subtracting header and footer height */
+}
+
+form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+form h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #777;
+}
+
+input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #3aaf9f;
+    background-color: #3aaf9f;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 45px;
+    cursor: pointer;
+    transition: transform 80ms ease-in;
+}
+
+button:hover {
+    background-color: #34a693;
+}
+
+.forgot-password {
+    margin-top: 15px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #3aaf9f;
+    font-size: 14px;
+}
+
+.forgot-password a:hover {
+    color: #34a693;
+}
+
+/* Footer */
+footer {
+    background-color: #3aaf9f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
